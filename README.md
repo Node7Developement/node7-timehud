@@ -1,5 +1,14 @@
 [README.md](https://github.com/user-attachments/files/30391865/README.md)
 
+
+
+
+
+
+
+
+<img width="283" height="93" alt="timehud" src="https://github.com/user-attachments/assets/9c37acd3-b61b-474f-a327-90cfcf0ba450" />
+
 # node7-timehud
 
 Lightweight plain-text HUD for the active Red Dead Redemption 2 world calendar and clock.
