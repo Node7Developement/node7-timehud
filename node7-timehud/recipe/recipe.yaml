@@ -1,0 +1,18 @@
+$schema: https://raw.githubusercontent.com/tabarra/txAdmin-recipe-schemas/master/basic.yaml
+version: 2
+name: NODE7 Time HUD
+author: Node7 Development Studios
+description: Installs the plain-text NODE7 RedM world day and time display.
+
+tasks:
+  - action: ensure_dir
+    path: ./resources/[node7]
+
+  - action: copy_path
+    src: ./
+    dest: ./resources/[node7]/node7-timehud
+
+  - action: append_to_file
+    file: ./server.cfg
+    append: |
+      ensure node7-timehud
